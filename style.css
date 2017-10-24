@@ -1,0 +1,109 @@
+
+	.teal-background{
+		background:#4aaaa5;
+		height:50px;
+		width:100%;
+		text-align:center;
+		color:white;
+		padding:0 10px 0 20px;
+	}
+	h2 {
+		color:#4aaaa5;
+		border-bottom:thick solid lightgrey;
+		padding:10px;
+	}
+	.white-text {
+		color:white;
+		font-weight: 700;
+		font-family:'Georgia', Times, Times New Roman, serif;
+	}
+	.left-border {
+		border-left:thin solid lightgrey;
+	}
+	body {
+		padding-top: 70px;
+		min-height: calc(100vh - 53px);
+		background-image: url("images/intersection.png");
+	}
+	h1, h2, h3 {
+		color:#4aaaa5;
+		font-weight: 700;
+		font-family:'Georgia', Times, Times New Roman, serif;
+	}
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}	
+.work h3 {
+  position: absolute;
+  bottom: 40px;
+  left:32px;
+  width: 210px;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 10px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+input[type=text], textarea {
+	width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+textarea {
+	height:100px;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.form {
+    padding: 20px;
+}
+label {
+	color: #777777;
+}
+.white-background {
+	background:white;
+}
+footer {
+	clear:both;
+	background:#666666;
+	border-top: thick solid #4aaaa5;
+	text-align:center;
+	padding: 20px;
+	margin-top:60px;
+	color: #80878e;
+}
+aside h3 {
+	border-bottom:3px solid #ddd;
+	padding:25px;
+	margin-top:-15px;
+}
+aside{
+	padding:40px;
+}
+.picture-frame{
+	margin-top:25px;
+}
+.padded-out {
+	padding:10px;
+}
