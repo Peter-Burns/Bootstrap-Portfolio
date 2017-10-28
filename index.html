@@ -4,18 +4,26 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title></title>
+	<title>About me</title>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
   		<div class="container">
     		<div class="navbar-header">
 				<div class="teal-background">
-     				<a class="navbar-brand navbar-left text-center" href="#"><p class="white-text">Peter Burns</p></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+     				 </button>
+     				<a class="navbar-brand text-center" href="#"><p class="white-text">Peter Burns</p></a>
+     				
      			</div>
     		</div>
-   			<div class="collapse navbar-collapse">
-				<ul class="navbar-right navbar-text list-inline">
+   			<div class="collapse navbar-collapse" id="myNavbar">
+
+				<ul class="nav navbar-nav navbar-right">
   					<li><a href="index.html" class="navbar-link">About</a></li>
   					<li class="left-border"><a href="portfolio.html" class="navbar-link">Portfolio </a></li>
   					<li class="left-border"><a href="contact.html" class="navbar-link">Contact</a></li>
@@ -24,10 +32,10 @@
     	</div>
 </nav>
 <div class="container">
-	<section class="">
+	<section class="sticky">
 		<div class="row">
-			<div class="col-md-8 col-xs-12">
-				<article class="white-background">
+			<div class="col-md-8 col-sm-6 col-xs-12">
+				<article class="white-background position-adjust">
 				<div clas="row">
 					<div class="col-md-12">
 						<h2>About Me</h2>
@@ -37,7 +45,7 @@
 					<div class="col-md-12">
 						<div class="padded-out">
 						<div class="media-left img-responsive">
-     					 	<img src="images/profile.jpg" alt="profile">
+     					 	<img width=150 height=150 src="images/profile.jpg" alt="profile">
      					 </div>
       					<div class="media-body">
         					<p>I'm a web designer based out of Cleveland, Ohio. I am currently learning web design at the CWRU bootcamp and loving it! <br>
@@ -47,7 +55,7 @@
 					</div>
 				</article>
 				</div>
-			<div class="col-md-4 col-xs-12">
+			<div class="col-md-4 col-sm-6 col-xs-12">
 				<aside class="white-background">
 				<div class="row text-center">
 					<h3>Connect with me</h3> 
@@ -79,8 +87,7 @@
 	<footer>
 		&#169 Copyright 2017 Peter Burns
 	</footer>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
